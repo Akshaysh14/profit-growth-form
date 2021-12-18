@@ -1,0 +1,90 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <form class="my-5 row" [formGroup]="profitGrowthForm">
+        <div class="my-5 col-12"></div>
+        <div class="mb-3 col-12">
+          <label for="leads" class="form-label">Leads</label>
+          <input type="number" class="form-control" id="leads" formControlName="leads">
+        </div>
+        <div class="mb-3 col-12">
+          <label for="conversionAge" class="form-label">Conversion %age</label>
+          <input type="number" class="form-control" id="conversionAge" formControlName="conversionAge">
+        </div>
+        <div class="mb-3 col-12">
+          <label for="customers" class="form-label">Customers</label>
+          <input type="number" class="form-control" id="customers" formControlName="customers">
+        </div>
+        <div class="mb-3 col-12">
+          <label for="avgTransactions" class="form-label">Avg % Transactions</label>
+          <input type="number" class="form-control" id="avgTransactions" formControlName="avgTransactions">
+        </div>
+        <div class="mb-3 col-12">
+          <label for="avgvalueOfTransactions" class="form-label">Avg Value of Transactions</label>
+          <input type="number" class="form-control" id="avgvalueOfTransactions"
+            formControlName="avgvalueOfTransactions">
+        </div>
+        <div class="mb-3 col-12">
+          <label for="revenue" class="form-label">Revenue</label>
+          <input type="number" class="form-control" id="revenue" formControlName="revenue">
+        </div>
+        <div class="mb-3 col-12">
+          <label for="ageMargin" class="form-label">%age Margin</label>
+          <input type="number" class="form-control" id="ageMargin" formControlName="ageMargin">
+        </div>
+        <div class="mb-3 col-12">
+          <label for="profit" class="form-label">Profit</label>
+          <input type="number" class="form-control" id="profit" formControlName="profit">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+
+    <div class="col-md-6">
+      <form class="my-5" [formGroup]="afterProfitGrowthForm">
+        <div class="mb-3">
+          <label for="growthAge" class="form-label">Growth %age</label>
+          <input type="number" class="form-control" id="growthAge" formControlName="growthAge">
+        </div>
+        <div class="mb-3 col-12">
+          <label for="leads" class="form-label">Leads</label>
+          <input type="number" class="form-control" id="leads" formControlName="leads">
+        </div>
+        <div class="mb-3 col-12">
+          <label for="conversionAge" class="form-label">Conversion %age</label>
+          <input type="number" class="form-control" id="conversionAge" formControlName="conversionAge">
+        </div>
+        <div class="mb-3 col-12">
+          <label for="customers" class="form-label">Customers</label>
+          <input type="number" class="form-control" id="customers" formControlName="customers">
+        </div>
+        <div class="mb-3 col-12">
+          <label for="avgTransactions" class="form-label">Avg % Transactions</label>
+          <input type="number" class="form-control" id="avgTransactions" formControlName="avgTransactions">
+        </div>
+        <div class="mb-3 col-12">
+          <label for="avgvalueOfTransactions" class="form-label">Avg Value of Transactions</label>
+          <input type="number" class="form-control" id="avgvalueOfTransactions"
+            formControlName="avgvalueOfTransactions">
+        </div>
+        <div class="mb-3 col-12">
+          <label for="revenue" class="form-label">Revenue</label>
+          <input type="number" class="form-control" id="revenue" formControlName="revenue">
+        </div>
+        <div class="mb-3 col-12">
+          <label for="ageMargin" class="form-label">%age Margin</label>
+          <input type="number" class="form-control" id="ageMargin" formControlName="ageMargin">
+        </div>
+        <div class="mb-3 col-12">
+          <label for="profit" class="form-label">Profit</label>
+          <input type="number" class="form-control" id="profit" formControlName="profit">
+        </div>
+        <div class="mb-3">
+          <label for="profitGrowthAge2" class="form-label">Profit Growth %age</label>
+          <input type="number" class="form-control" id="profitGrowthAge2" formControlName="profitGrowthAge">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
